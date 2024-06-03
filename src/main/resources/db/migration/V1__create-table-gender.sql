@@ -1,0 +1,5 @@
+CREATE TABLE "gender" (
+    "id" SERIAL PRIMARY KEY UNIQUE NOT NULL,
+    "name" VARCHAR(255) NOT NULL,
+    "active" BOOLEAN NOT NULL
+);
